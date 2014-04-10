@@ -1,0 +1,253 @@
+
+.card-block{
+  font-family: "Merriweather Regular" serif;
+  margin-top: 20px;
+  padding: 0;
+  height: auto;
+}
+
+.inner-card-block{
+  margin: 0 2%;
+  border: 3px solid #d7d7d7;
+  border-radius: 12px;
+  box-shadow: 2px 2px 2px #a5a5a4;
+  overflow: hidden;
+  height: 50%;
+}
+
+.card-img{
+
+}
+.card-img img{
+  height: auto;
+  width: 100%;
+}
+
+.analytics-icon-color{
+  color:#b3b3b1;
+  padding:0 5px;
+  vertical-align: middle;
+}
+
+.first-analytic-icon{
+  padding-left: 0;
+}
+
+.analytics{
+  padding-top: 2px;
+  background-color: #ceccc0;
+  font-size: 0.8em;
+  height: 30px;
+  text-align: center;
+
+}
+
+.card-content{
+  padding: 1% 2% 1% 2%;
+}
+.author-strip{
+  width: 100%;
+  height: 30%;
+
+}
+
+.author{
+  width: 10%;
+  height: 100%;
+  float: left;
+  border: 2px solid #979795;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.author-detail{
+  width: 90%;
+  height: 100%;
+  float: left;
+  vertical-align: middle;
+  padding: 3% 0;
+  vertical-align: middle;
+}
+
+.author-name{
+  color:#aeada4;
+  padding-bottom: 5px;
+  font-size: 14px;
+  padding-left: 2%;
+}
+.article-cat{
+  color:#aeada4;
+  float: right;
+  font-size: 14px;
+  padding-right: 2%;
+}
+
+.text-in-card{
+  height: 165px;
+  margin-top: 11%;
+}
+
+.title{
+  font-size: 1.4em;
+  font-family: "Merriweather Regular";
+  margin-bottom: 2%;
+  margin-top: 10%;
+  color: #333332;
+}
+.short-desc{
+  font-size: 1em;
+  font-family: "Merriweather Light";
+  color: #717171;
+}
+
+
+
+.share-options{
+  width: 100%;
+  margin-top: 5px;
+}
+.save{
+  width: 50%;
+  height: 28px;
+  float:left;
+  vertical-align: middle;
+}
+.pocket-icon{
+  width: 25px;
+  height: 28px;
+  vertical-align: middle;
+  margin-top: 5px;
+}
+.share{
+  width: 50%;
+  height: 28px;
+  float:left;
+}
+.save ul li{
+  float: left;
+}
+.share ul li{
+  float: right;
+}
+.clearboth{
+  clear: both;
+}
+
+a.svg {
+  position: relative;
+  display: inline-block;
+}
+a.svg:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left:0;
+}
+
+.share-options ul{
+  list-style: none;
+  margin-left: 0;
+}
+
+
+.ad{
+  width: 300px;
+  height: 250px;
+  background-color: #cccccc;
+  font-size: 36px;
+  color: #ffffff;
+  text-align: center;
+  margin:20% auto;
+  line-height: 250px;
+}
+.ad-label{
+  background-color: #ceccc0;
+  width: 100%;
+  padding: 3%;
+  color: #ffffff;
+}
+
+
+
+//FOOTER
+
+hr.line {
+  border: 0;
+  height: 2px;
+  background: #333;
+  background-image: -webkit-linear-gradient(left, #ccc, #ceccc0, #ccc);
+  background-image:    -moz-linear-gradient(left, #ccc, #ceccc0, #ccc);
+  background-image:     -ms-linear-gradient(left, #ccc, #ceccc0, #ccc);
+  background-image:      -o-linear-gradient(left, #ccc, #ceccc0, #ccc);
+}
+
+hr{
+  margin-bottom: 5px;
+}
+
+.footer{
+  padding:5px 25px 40px 25px;
+  color: #b3b3b1;
+  text-align: center;
+}
+#copyright{
+  vertical-align: middle;
+  margin-bottom: 1%;
+}
+
+#up-icon{
+position: fixed;
+  bottom: 2%;
+  right: 1%;
+}
+
+
+//STRIP DESIGN
+header {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 50px;
+  background: rgba(0,0,0,0.5);
+  z-index: 10000;
+  padding: 8px 10px;
+}
+
+#menu-strip{
+  float: right;
+}
+
+#logo-strip{
+  font-family: "Trajan Pro1",serif;
+  color: rgba(255,255,255,0.8);
+  font-size: 30px;
+  float: left;
+}
+
+#logo-strip:hover{
+  color: rgba(255,255,255,0.9);
+}
+
+#strip-menu-options div{
+  margin: 2% auto;
+  text-align: center;
+  color: rgba(255,255,255,0.8);
+}
+
+
+#strip-menu-options a{
+  color: rgba(255,255,255,0.8);
+}
+
+#strip-menu-options a:hover{
+  color: rgba(255,255,255,0.9);
+}
+
+
+//MEDIA QUERIES
+//@media hendheld, screen and (max-width:650px) and (min-width: 470px){
+//
+//}
+

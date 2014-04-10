@@ -1,0 +1,281 @@
+/* line 2, ../sass/index.scss */
+.card-block {
+  font-family: "Merriweather Regular" serif;
+  margin-top: 20px;
+  padding: 0;
+  height: auto;
+}
+
+/* line 9, ../sass/index.scss */
+.inner-card-block {
+  margin: 0 2%;
+  border: 3px solid #d7d7d7;
+  border-radius: 12px;
+  box-shadow: 2px 2px 2px #a5a5a4;
+  overflow: hidden;
+  height: 50%;
+}
+
+/* line 21, ../sass/index.scss */
+.card-img img {
+  height: auto;
+  width: 100%;
+}
+
+/* line 26, ../sass/index.scss */
+.analytics-icon-color {
+  color: #b3b3b1;
+  padding: 0 5px;
+  vertical-align: middle;
+}
+
+/* line 32, ../sass/index.scss */
+.first-analytic-icon {
+  padding-left: 0;
+}
+
+/* line 36, ../sass/index.scss */
+.analytics {
+  padding-top: 2px;
+  background-color: #ceccc0;
+  font-size: 0.8em;
+  height: 30px;
+  text-align: center;
+}
+
+/* line 45, ../sass/index.scss */
+.card-content {
+  padding: 1% 2% 1% 2%;
+}
+
+/* line 48, ../sass/index.scss */
+.author-strip {
+  width: 100%;
+  height: 30%;
+}
+
+/* line 54, ../sass/index.scss */
+.author {
+  width: 10%;
+  height: 100%;
+  float: left;
+  border: 2px solid #979795;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+/* line 63, ../sass/index.scss */
+.author-detail {
+  width: 90%;
+  height: 100%;
+  float: left;
+  vertical-align: middle;
+  padding: 3% 0;
+  vertical-align: middle;
+}
+
+/* line 72, ../sass/index.scss */
+.author-name {
+  color: #aeada4;
+  padding-bottom: 5px;
+  font-size: 14px;
+  padding-left: 2%;
+}
+
+/* line 78, ../sass/index.scss */
+.article-cat {
+  color: #aeada4;
+  float: right;
+  font-size: 14px;
+  padding-right: 2%;
+}
+
+/* line 85, ../sass/index.scss */
+.text-in-card {
+  height: 165px;
+  margin-top: 11%;
+}
+
+/* line 90, ../sass/index.scss */
+.title {
+  font-size: 1.4em;
+  font-family: "Merriweather Regular";
+  margin-bottom: 2%;
+  margin-top: 10%;
+  color: #333332;
+}
+
+/* line 97, ../sass/index.scss */
+.short-desc {
+  font-size: 1em;
+  font-family: "Merriweather Light";
+  color: #717171;
+}
+
+/* line 105, ../sass/index.scss */
+.share-options {
+  width: 100%;
+  margin-top: 5px;
+}
+
+/* line 109, ../sass/index.scss */
+.save {
+  width: 50%;
+  height: 28px;
+  float: left;
+  vertical-align: middle;
+}
+
+/* line 115, ../sass/index.scss */
+.pocket-icon {
+  width: 25px;
+  height: 28px;
+  vertical-align: middle;
+  margin-top: 5px;
+}
+
+/* line 121, ../sass/index.scss */
+.share {
+  width: 50%;
+  height: 28px;
+  float: left;
+}
+
+/* line 126, ../sass/index.scss */
+.save ul li {
+  float: left;
+}
+
+/* line 129, ../sass/index.scss */
+.share ul li {
+  float: right;
+}
+
+/* line 132, ../sass/index.scss */
+.clearboth {
+  clear: both;
+}
+
+/* line 136, ../sass/index.scss */
+a.svg {
+  position: relative;
+  display: inline-block;
+}
+
+/* line 140, ../sass/index.scss */
+a.svg:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 149, ../sass/index.scss */
+.share-options ul {
+  list-style: none;
+  margin-left: 0;
+}
+
+/* line 155, ../sass/index.scss */
+.ad {
+  width: 300px;
+  height: 250px;
+  background-color: #cccccc;
+  font-size: 36px;
+  color: #ffffff;
+  text-align: center;
+  margin: 20% auto;
+  line-height: 250px;
+}
+
+/* line 165, ../sass/index.scss */
+.ad-label {
+  background-color: #ceccc0;
+  width: 100%;
+  padding: 3%;
+  color: #ffffff;
+}
+
+/* line 176, ../sass/index.scss */
+hr.line {
+  border: 0;
+  height: 2px;
+  background: #333;
+  background-image: -webkit-linear-gradient(left, #cccccc, #ceccc0, #cccccc);
+  background-image: -moz-linear-gradient(left, #cccccc, #ceccc0, #cccccc);
+  background-image: -ms-linear-gradient(left, #cccccc, #ceccc0, #cccccc);
+  background-image: -o-linear-gradient(left, #cccccc, #ceccc0, #cccccc);
+}
+
+/* line 186, ../sass/index.scss */
+hr {
+  margin-bottom: 5px;
+}
+
+/* line 190, ../sass/index.scss */
+.footer {
+  padding: 5px 25px 40px 25px;
+  color: #b3b3b1;
+  text-align: center;
+}
+
+/* line 195, ../sass/index.scss */
+#copyright {
+  vertical-align: middle;
+  margin-bottom: 1%;
+}
+
+/* line 200, ../sass/index.scss */
+#up-icon {
+  position: fixed;
+  bottom: 2%;
+  right: 1%;
+}
+
+/* line 208, ../sass/index.scss */
+header {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10000;
+  padding: 8px 10px;
+}
+
+/* line 218, ../sass/index.scss */
+#menu-strip {
+  float: right;
+}
+
+/* line 222, ../sass/index.scss */
+#logo-strip {
+  font-family: "Trajan Pro1",serif;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 30px;
+  float: left;
+}
+
+/* line 229, ../sass/index.scss */
+#logo-strip:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* line 233, ../sass/index.scss */
+#strip-menu-options div {
+  margin: 2% auto;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* line 240, ../sass/index.scss */
+#strip-menu-options a {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* line 244, ../sass/index.scss */
+#strip-menu-options a:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
